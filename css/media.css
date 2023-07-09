@@ -27,9 +27,11 @@
             text-align: center;
         }
         .footer-form-input{
-            width: 100%;
-            margin-bottom: 16px;
+            width: 100%;  
         } 
+        .footer-label{
+        margin-bottom: 16px;
+        }
         
         .form-footer{
             display: flex;
@@ -42,7 +44,7 @@
         .footer-social-media{
             align-items: center;
             justify-content: center; 
-            padding: 72px 0;
+            margin: 72px 0;
         }
         .text-subscribe{
             display: flex;
@@ -215,6 +217,9 @@
             flex-wrap: wrap;
             flex-direction: row;
             gap: 72px 24px;
+        }
+        .menu-contact:not(:last-child){ 
+            margin-bottom: 12px;
         }
     }
    
